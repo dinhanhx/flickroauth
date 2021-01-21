@@ -24,14 +24,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="submit token"
-            android:id="@+id/token_submit"
-            android:onClick="sendMessage"/>
+            android:id="@+id/token_submit"/>
     </LinearLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/user_info"/>
+        android:id="@+id/token_view"/>
 
     <WebView
         android:id="@+id/web_view"
